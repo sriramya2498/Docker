@@ -5,7 +5,7 @@ WORKDIR /app
 COPY requirements.txt /app
 COPY devops /app
 
-ENV pip_break-system-packages 1 
+//ENV pip_break-system-packages 1 
 RUN apt-get update && \
     apt-get install -y python3 python3-pip && \
     pip install -r requirements.txt && \
