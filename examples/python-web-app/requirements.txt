@@ -1,2 +1,4 @@
+cat << EOF > requirements.txt
 Django
 tzdata
+EOF
