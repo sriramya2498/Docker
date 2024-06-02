@@ -1,2 +1,2 @@
-Django
-tzdata
+Django==3.2.4
+tzdata==2021.1
