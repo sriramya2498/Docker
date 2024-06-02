@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM azureuser
 
 WORKDIR /app
 
